@@ -29,4 +29,6 @@ utils.__version__ #check utils package version
 #Change your remote's URL from SSH to HTTPS with the git remote set-url command.
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
+git push -f origin main # To force push to github. This will overwrite existing files.
+
 ```
