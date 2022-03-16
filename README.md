@@ -25,4 +25,8 @@ cp sample\ notebook/demo.ipynb .
 #to see utils as a pckage, just type python in the terminal
 import utils
 utils.__version__ #check utils package version
+
+#Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
 ```
