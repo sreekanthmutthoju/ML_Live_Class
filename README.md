@@ -31,4 +31,10 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 git push -f origin main # To force push to github. This will overwrite existing files.
 
+git checkout <existing_branch> | git switch <existing_branch> # To change to an existing brance
+
+git checkout -b <new_branch> | git switch -c <new_branch> # To create a new branch and change into it
+
+
+
 ```
