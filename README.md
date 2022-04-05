@@ -35,6 +35,6 @@ git checkout <existing_branch> | git switch <existing_branch> # To change to an 
 
 git checkout -b <new_branch> | git switch -c <new_branch> # To create a new branch and change into it
 
-
+git status #Gives the git status on current branch like staging area, untracked files
 
 ```
